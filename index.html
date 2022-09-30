@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/solid.min.css"
+        integrity="sha512-EvFBzDO3WBynQTyPJI+wLCiV0DFXzOazn6aoy/bGjuIhGCZFh8ObhV/nVgDgL0HZYC34D89REh6DOfeJEWMwgg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="plugin" viewBox="0 0 16 16">
+            <path fill="#ffc235" fill-rule="evenodd"
+                d="M1 8a7 7 0 1 1 2.898 5.673c-.167-.121-.216-.406-.002-.62l1.8-1.8a3.5 3.5 0 0 0 4.572-.328l1.414-1.415a.5.5 0 0 0 0-.707l-.707-.707 1.559-1.563a.5.5 0 1 0-.708-.706l-1.559 1.562-1.414-1.414 1.56-1.562a.5.5 0 1 0-.707-.706l-1.56 1.56-.707-.706a.5.5 0 0 0-.707 0L5.318 5.975a3.5 3.5 0 0 0-.328 4.571l-1.8 1.8c-.58.58-.62 1.6.121 2.137A8 8 0 1 0 0 8a.5.5 0 0 0 1 0Z">
+            </path>
+        </symbol>
+    </svg>
+    <!-- ------- Section 1 start ------- -->
+    <section>
+        <nav class="nav-container">
+            <ul class="ul-list">
+                <li class="li-items brand-logo">
+                    <img src="bootstap_logo.png" class="nav-image">
+                </li>
+                <li class="li-items">Docs</li>
+                <li class="li-items">Examples</li>
+                <li class="li-items">Icons</li>
+                <li class="li-items">Themes</li>
+                <li class="li-items">Blog</li>
+            </ul>
+            <ul class="ul-list">
+                <li class="li-items">
+                    <i class="fa-brands fa-square-github"></i>
+                </li>
+                <li class="li-items">
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+                <li class="li-items">
+                    <i class="fa-solid fa-building"></i>
+                </li>
+                <li class="li-items">
+                    <i class="fa-brands fa-linkedin"></i>
+                </li>
+                <li>
+                    <span class="vertical-line"></span>
+                </li>
+                <li class="li-items">v5.2</li>
+            </ul>
+        </nav>
+    </section>
+    <!-- ------- Section 1 end ------- -->
+    <!-- ------- Section 2 start ------- -->
+    <section class="section2 flex">
+
+        <a href="#" class="link-button ">New in v5.2</a>
+        <div class="text-below-btn">CSS variables,responsive offcanvas,new utilities,and more!</div>
+        <img src="bootstrap_image.jfif" class="section2-image">
+        <div class="heading text-center">Build fast,responsive sites with Bootstrap</div>
+        <div class="para text-center">Powerful,extensible,and feature-packed frontend toolkit.Build and customize with
+            Saas, utilize
+            prebuilt grid
+            system and components,and bring projects to life with powerful JavaScript
+            plugins.
+        </div>
+        <a href="#" class="code list-style">$ npm i bootstrap@5.2.0</a>
+        <a href="#" class="link-button1 list-style">
+            <i class="fa-solid fa-book-open ">
+                Read the docs</i>
+        </a>
+        <div clas="link-container">
+            Currently v5.2.0 .
+            <a href="#" class="link">Download" .</a>
+            <a href="#" class="link">v4.6.x docs .</a>
+            <a href="#" class="link">All releases</a>
+        </div>
+    </section>
+    <!-- -------- Section 2 end ---------- -->
+    <!-- ------- Section 3 start------ -->
+    <i class="fa-solid fa-file-code icons"></i>
+    <section class="section3 flex">
+        <div class="head text-center">Get started any way you want</div>
+        <div class="para text-center">Jump right into building with Bootstrap---use the CDN,install it via package
+            manager,or download the source
+            code.</div>
+        <a href="#" class="link-text ">Read installation docs--></a>
+    </section>
+    <!--  ----- Section 3 end ----  -->
+    <!-- ------ Section 4 start ----- -->
+    <section class="section4 ">
+        <div class="section4-column1 p1">
+            <i class="fa-solid fa-box"></i>
+            <div class="header">Install via package manager</div>
+            <div class="para">Install Bootstrap's source Sass and JavaScript files via npm, RubyGems, Composer, or
+                Meteor.
+                Package
+                managed installs don't include documentation or our full build
+                scripts. You can also <a href="#"> use our npm template repo</a> to quickly generate a Bootstrap project
+                via
+                npm.</div>
+            <div class=" code code1">$ npm install bootstrap@5.2.0</div>
+            <div class=" code code1">$ gem install bootstrap -v 5.2.0</div>
+            <div>
+                <a href="#">Read our installation docs</a> for more info and additional package managers.
+            </div>
+        </div>
+        <div class="section4-column2">
+            <i class="fa-solid fa-globe fa-box"></i>
+            <div class="header">Include via CDN</div>
+            <div class="para">When you only need to include Bootstrap's compiled CSS or JS, you can use <a
+                    href="#">jsDelivr.</a> See
+                it in action with our simple
+                <a href="#">quick start,</a> or <a href="#">browse the examples</a> to jumpstart your next project. You
+                can also choose to include
+                Popper and our JS <a href="#">separately.</a>
+            </div>
+            <pre>
+                <!-- CSS only -->
+                &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+                    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+                    crossorigin="anonymous"&gt;
+            </pre>
+            <pre>
+                <!-- JavaScript Bundle with Popper -->
+            &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">&lt;script&gt;
+            </pre>
+        </div>
+    </section>
+    <!-- ----- Section 4 end ----- -->
+    <!-- ----- Section 5 start------ -->
+    <section class="section5 flex">
+        <div class="header">Read our getting started guides</div>
+        <div>Get a jump on including Bootstrap's source files in a new project with our official guides.</div>
+        <div class="flex-row">
+            <div class="section5-image">
+                <img src="webpack.png" class="images">
+                <div>webpack</div>
+            </div>
+            <div class="section5-image">
+                <img src="parcel_image.jfif" class="images">
+                <div>Parcel</div>
+            </div>
+            <div class="section5-image">
+                <img src="vite_image.jfif" class="images">
+                <div>Vite</div>
+            </div>
+        </div>
+    </section>
+    <!-- ---- Section 5 end ---- -->
+    <!-- ---- Section 6 start --- -->
+    <i class="fa-brands fa-stack-overflow icons"></i>
+    <section class="section6 p1">
+        <div class="head">Customize everything with Saas</div>
+        <div class="para">Bootstrap utilizes Sass for a modular and customizable architecture. Import only the
+            components you need, enable global
+            options like gradients and shadows, and write your own CSS with our variables, maps, functions, and mixins.
+        </div>
+        <a href="#" class="link-text">Learn more about customizing--></a>
+    </section>
+    <!-- ------ Section 6 end ----- -->
+    <!-- ----- Section 7 start ----- -->
+    <section class="section7 p1 section4">
+        <div>
+            <div class="header">Include all of Bootstrap's Sass</div>
+            <div class="para">Import one stylesheet and you're off to the races with every feature of our CSS.</div>
+            <pre class="bootstrap-saas">
+            // Variable overrides first
+            $primary: #900;
+            $enable-shadows: true;
+            $prefix: "mo-";
+
+            // Then import Bootstrap
+            @import "../node_modules/bootstrap/scss/bootstrap";
+        </pre>
+            <div>Learn more about our <a href="#">global Sass options.</a></div>
+        </div>
+        <div>
+            <div class="header">Include what you need</div>
+            <div class="para">The easiest way to customize Bootstrap—include only the CSS you need.</div>
+            <pre class="bootstrap-saas">
+    // Functions first
+    @import "../node_modules/bootstrap/scss/functions";
+
+    // Variable overrides second
+    $primary: #900;
+    $enable-shadows: true;  
+
+    $prefix: "mo-";
+
+    // Required Bootstrap imports
+    @import "../node_modules/bootstrap/scss/variables";
+    @import "../node_modules/bootstrap/scss/maps";
+    @import "../node_modules/bootstrap/scss/mixins";
+    @import "../node_modules/bootstrap/scss/root";
+
+    // Optional components
+    @import "../node_modules/bootstrap/scss/utilities";
+    @import "../node_modules/bootstrap/scss/reboot";
+    @import "../node_modules/bootstrap/scss/containers";
+    @import "../node_modules/bootstrap/scss/grid";
+    @import "../node_modules/bootstrap/scss/helpers";
+    @import "../node_modules/bootstrap/scss/utilities/api";
+            </pre>
+            <div>Learn more about <a href="#">Using Bootstrap with Sass.</a></div>
+        </div>
+    </section>
+    <!-- --- Section 7 end---- -->
+    <!-- ---- Section 8 start ---- -->
+    <i class="fa-solid fa-mercury icons"></i>
+    <section class="section8 p1">
+        <div class="heading">Build and extend in real-time with CSS variables</div>
+        <div class="para">Bootstrap 5 is evolving with each release to better utilize CSS variables for global theme
+            styles, individual
+            components, and even utilities. We provide dozens of variables for colors, font styles, and more at a :root
+            level for
+            use anywhere. On components and utilities, CSS variables are scoped to the relevant class and can easily be
+            modified.</div>
+        <a href="#" class="link-text">Learn more about css variables--></a>
+    </section>
+    <!-- --- Section 8 end --- -->
+    <!-- ---- Section 9 start ---- -->
+    <section class="section9  section4 p1">
+        <div>
+            <div class="header">Using CSS variables</div>
+            <div>Use any of our <a href="#"> global :root variables </a>to write new styles. CSS variables use the
+                var(--bs-variableName) syntax and can
+                be inherited by children elements.</div>
+            <pre class="bootstrap-saas">
+                .component {
+                color: var(--bs-gray-800);
+                background-color: var(--bs-gray-100);
+                border: 1px solid var(--bs-gray-200);
+                border-radius: .25rem;
+                }
+                
+                .component-header {
+                color: var(--bs-purple);
+                }
+            </pre>
+        </div>
+        <div>
+            <div class="header">Customizing via CSS variables</div>
+            <div class="para">Override global, component, or utility class variables to customize Bootstrap just how you
+                like. No need to redeclare
+                each rule, just a new variable value.</div>
+
+            <pre class=" bootstrap-saas">
+            body {
+            --bs-body-font-family: var(--bs-font-monospace);
+            --bs-body-line-height: 1.4;
+            --bs-body-bg: var(--bs-gray-100);
+            }
+            
+            .table {
+            --bs-table-color: var(--bs-gray-600);
+            --bs-table-bg: var(--bs-gray-100);
+            --bs-table-border-color: transparent;
+            }
+        </pre>
+        </div>
+    </section>
+    <!-- ---- Section 9 end ---- -->
+    <!-- ---- Section 10 start ---- -->
+    <section class=" section10 section4">
+        <div class="section-1 p1">
+            <i class="fa-solid fa-cake-candles icons"></i>
+            <span class="plus-sign">+</span>
+            <i class="fa-solid fa-calendar icons"></i>
+            <div class="head head2">Components, meet the Utility API</div>
+            <div class="para">
+                New in Bootstrap 5, our utilities are now generated by our Utility API. We built it as a feature-packed
+                Sass
+                map that
+                can be quickly and easily customized. It's never been easier to add, remove, or modify any utility
+                classes.
+                Make
+                utilities responsive, add pseudo-class variants, and give them custom names.
+            </div>
+            <span class="link-text1">
+                <a href="#" class="link-text ">Learn more about utilities--></a>
+                <a href="#" class=" link-text">Explore customized components--></a>
+            </span>
+        </div>
+
+
+        <div class="section-2  ">
+            <div class="section11-content">
+                <div class="box">Quickly customize components</div>
+                <hr>
+                <div class="box-data">
+                    <div class="home-square p1">Home</div>
+                    <div class=" p2">Profile</div>
+                    <div class="p2">Contact</div>
+                </div>
+                <div class="row-data box-data">
+                    <div class="home-curve">Home</div>
+                    <div class="p3">Profile</div>
+                    <div class="p3">Contact</div>
+                </div>
+            </div>
+            <pre class="bootstrap-saas">
+            // Create and extend utilities with the Utility API
+            
+            @import "bootstrap/scss/bootstrap";
+            
+            $utilities: map-merge(
+            $utilities,
+            (
+            "cursor": (
+            property: cursor,
+            class: cursor,
+            responsive: true,
+            values: auto pointer grab,
+            )
+            )
+            );
+
+        </pre>
+        </div>
+    </section>
+    <!-- ----- Section 10 end ----- -->
+    <!-- ----- Section 11 start ----- -->
+    <svg class="icons2  ">
+        <use xlink:href="#plugin"></use>
+    </svg>
+    <section class="section11 p1">
+        <div class="head">Powerful JavaScript plugins without jQuery</div>
+        <div class="para">Easily add toggleable hidden elements, modals and offcanvas menus, popovers and tooltips, and
+            so much more—all without
+            jQuery. JavaScript in Bootstrap is HTML-first, which means adding plugins is as easy as adding data
+            attributes. Need
+            more control? Include individual plugins programmatically.</div>
+        <a href="#" class="link-text">Learn more about Bootstrap JavaScript--></a>
+    </section>
+    <!-- ----- Section 11 end ---- -->
+    <!-- ----- Section 12 start--- -->
+    <section class="section12 p1 section4">
+        <div class="column1">
+
+            <div class="header">Data attribute API</div>
+            <div class="para">Why write more JavaScript when you can write HTML? Nearly all of Bootstrap's JavaScript
+                plugins feature a first-class
+                data API, allowing you to use JavaScript just by adding data attributes.</div>
+            <div class="dropdown">
+                <label for="dropdown">Dropdown </label>
+                <select class="btn">
+                    <option></option>
+                    <option>Dropdown items</option>
+                    <option>Dropdown items</option>
+                    <option>Dropdown items</option>
+                </select>
+            </div>
+            <pre class="bootstrap-saas">
+&lt;div class="dropdown"&gt;
+&lt;button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+Dropdown
+&lt;/button&gt;
+&lt;ul class="dropdown-menu"&gt;
+&lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Dropdown item&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Dropdown item&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Dropdown item&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</pre>
+            <div>
+                Learn more about <a href="#"> our JavaScript as modules </a> and <a href="#">using the programmatic
+                    API.</a>
+            </div>
+        </div>
+
+        <div class="column1">
+            <div class="header">Comprehensive set of plugins</div>
+            <div class="para">Bootstrap features a dozen plugins that you can drop into any project. Drop them in all at
+                once, or choose just the ones
+                you need.</div>
+            <hr>
+            <div class="grid-container">
+                <div class="items">
+                    <div class="h1">Alert</div>
+                    <div>show and hide alert messages to your users.</div>
+                </div>
+                <div class="items">
+                    <div class="h1">Button</div>
+                    <div>Programmatically control the active state for buttons.</div>
+                </div>
+                <div class="items">
+                    <div class="h1">Carousel</div>
+                    <div>Add slideshows to any page ,including support for crossfade.</div>
+                </div>
+                <div class="items">
+                    <div class="h1">Collapse</div>
+                    <div>Expand and collapse areas of content,or create accordions.</div>
+                </div>
+                <div class="items">
+                    <div class="h1">Dropdown</div>
+                    <div>Create menus of links ,actions,forms,and more.</div>
+                </div>
+                <div class="items">
+                    <div class="h1">Modal</div>
+                    <div>Add flexible and responsive dialogs to your project.</div>
+                </div>
+                <div class="items">
+                    <div class="h1">Offcanvas</div>
+                    <div>Build and toggle hidden sidebars into any page.</div>
+                </div>
+                <div class="items">
+                    <div class="h1">popover</div>
+                    <div>Create custom overlays. Built on Popper.</div>
+                </div>
+                <div class="items">
+                    <div class="h1">Scrollspy</div>
+                    <div>Automatically update active nav links based on page scroll.</div>
+                </div>
+                <div class="items">
+                    <div class="h1">Tab</div>
+                    <div>Allow Bootstrap nav components to toggle contents.</div>
+                </div>
+                <div class="items">
+                    <div class="h1">Toast</div>
+                    <div>show and hide notifications to your visitors.</div>
+                </div>
+                <div class="items">
+                    <div class="h1">Tooltip</div>
+                    <div>Replace browser tooltips with custon ones.Built on Popper.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------ section 12 end ----- -->
+    <!-- ----- section 13 start ----- -->
+    <section class="section13 section4 p1">
+
+        <div class="column">
+            <i class="fa-brands fa-square-pinterest icons"></i>
+            <div class="head">Personalize it with Bootstrap Icons</div>
+            <div class="para"><a href="#"> Bootstrap Icons </a>is an open source SVG icon library featuring over 1,500
+                glyphs, with more
+                added every release. They're
+                designed to work in any project, whether you use Bootstrap itself or not. Use them as SVGs or icon
+                fonts—both options
+                give you vector scaling and easy customization via CSS.</div>
+            <div class="link-text link-text-width ">Get Bootstrap Icons--></div>
+        </div>
+        <div>
+            <img src="bootstrap_bgimage.png" class="bootstrap-bgimg">
+        </div>
+    </section>
+    <!-- ----- Section 13 end ----- -->
+    <!-- ----- Section 14 start---- -->
+    <section class="section14 section4">
+        <div>
+            <i class="fa-solid fa-droplet icons"></i>
+            <div class="head">Make it yours with official Bootstrap Themes</div>
+            <div class="para">Take Bootstrap to the next level with premium themes from the <a href="#"> official
+                    Bootstrap
+                    Themes marketplace. </a>Themes are built on
+                Bootstrap as their own extended frameworks, rich with new components and plugins, documentation, and
+                powerful build
+                tools.</div>
+            <div class="link-text link-text-width">Browse Bootstrap Themes--></div>
+        </div>
+        <div>
+            <img src="bootstrap-themes.png" class="bootstrap-bgimg">
+        </div>
+
+
+
+    </section>
+    <!-- ---- Section 14 end----- -->
+    <!-- ---- Section 15 start----- -->
+    <section class="section15 section4-column1 footer">
+
+        <div class="footer-container">
+            <img src="bootstrap-black_image.png" class="bootstrap">
+            <div class="text">Bootstrap</div>
+            <div>Designed and built with all the love in the world by the Bootstrap team with the help of our
+                contributors.</div>
+            <div>Code licensed MIT, docs CC BY 3.0.</div>
+            <div>Currently v5.2.0.</div>
+        </div>
+        <div class="footer-column">
+            <div class="header">Links</div>
+            <a href="#" class="link">Home</a>
+            <a href="#" class="link">Docs</a>
+            <a href="#" class="link">Examples</a>
+            <a href="#" class="link">Icons</a>
+            <a href="#" class="link">Themes</a>
+            <a href="#" class="link">Blog</a>
+            <a href="#" class="link">Swag Store</a>
+        </div>
+        <div class="footer-column">
+            <div class="header">Guides</div>
+            <a href="#" class="link">Getting started</a>
+            <a href="#" class="link">Starter template</a>
+            <a href="#" class="link">Webpack</a>
+            <a href="#" class="link">Parcel</a>
+            <a href="#" class="link">Vite</a>
+        </div>
+        <div class="footer-column">
+            <div class="header">Projects</div>
+            <a href="#" class="link">Bootstrap 5</a>
+            <a href="#" class="link"> Bootstrap 4</a>
+            <a href="#" class="link">Icons</a>
+            <a href="#" class="link">RFS</a>
+            <a href="#" class="link">npm starter</a>
+        </div>
+        <div class="footer-column">
+            <div class="header">Community</div>
+            <a href="#" class="link">Issues</a>
+            <a href="#" class="link">Discussions</a>
+            <a href="#" class="link"> Corporate sponsors</a>
+            <a href="#" class="link">Open Collective</a>
+            <a href="#" class="link"> Slack</a>
+            <a href="#" class="link">Stack Overflow</a>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
